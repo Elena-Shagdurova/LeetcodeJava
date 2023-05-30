@@ -33,7 +33,7 @@ class Solution {
     }
 }
 
-public class MergeTwoSortedLists {
+public class MergeTwoSortedLists21 {
     public static void main(String[] args) {
         // Creating list1: 1 -> 3 -> 5
         ListNode node1 = new ListNode(1);
