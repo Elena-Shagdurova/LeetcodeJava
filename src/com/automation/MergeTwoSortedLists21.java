@@ -1,8 +1,6 @@
 package com.automation;
 
-import java.util.List;
-
- class ListNode {
+class ListNode {
     int val;
     ListNode next;
 

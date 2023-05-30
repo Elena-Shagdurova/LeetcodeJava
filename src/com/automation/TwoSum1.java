@@ -2,7 +2,7 @@ package com.automation;
 
 import java.util.Arrays;
 
-public class TwoSum {
+public class TwoSum1 {
     public static void main(String[] args) {
         int []nums = {2, 7, 11, 16};
         int target =9;

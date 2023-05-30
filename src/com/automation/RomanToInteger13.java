@@ -1,10 +1,6 @@
 package com.automation;
 
-import java.util.*;
-import java.io.*;
-import java.lang.Math;
-
-public class RomanToInteger1 {
+public class RomanToInteger13 {
     public static void main(String[] args) {
         String s = "MCMXCV";
         System.out.println(romanToInt(s));
