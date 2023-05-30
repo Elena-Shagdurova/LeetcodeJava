@@ -20,20 +20,13 @@ import java.util.List;
 class Solution1{
     public List<Integer> inorderTraversal(TreeNode root){
         List<Integer> inorderList = new ArrayList<>();
-
-        // Recursively traverse the left subtree.
-        if (root.left != null) {
+        if(root != null){
             inorderList.addAll(inorderTraversal(root.left));
-        }
-
-        // Add the root node to the inorder list.
-        inorderList.add(root.val);
-
-        // Recursively traverse the right subtree.
-        if (root.right != null) {
+            inorderList.add(root.val);
             inorderList.addAll(inorderTraversal(root.right));
+        }else{
+            return inorderList;
         }
-
         return inorderList;
     }
 }
