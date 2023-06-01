@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class TwoSum1 {
     public static void main(String[] args) {
         int []nums = {2, 7, 11, 16};
-        int target =9;
+        int target =  9;
 //        int[] indices = twoSum(nums, target);
 //        System.out.println("Indices: " + indices[0] + ", " + indices[1]);
         System.out.println(Arrays.toString(twoSum(nums, target)));
