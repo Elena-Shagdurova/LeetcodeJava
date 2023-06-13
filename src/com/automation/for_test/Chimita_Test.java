@@ -1,4 +1,4 @@
-package com.automation;
+package com.automation.for_test;
 
 public class Chimita_Test {
     public static void main(String[] args) {
